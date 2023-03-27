@@ -1,4 +1,4 @@
-# <u>Client-side Protections</u>
+# Client-side Protections
 ### 10pts: [Super Admin]
 You must be an admin to proceed. (Javascript Parameter Tampering)
 
