@@ -12,24 +12,24 @@ Submit the correct PIN to proceed (3 - 4 digits long).
 Submit your guesses (code is 7 alpha-numeric characters long).
 
 1. Discover valid characters. This can be done by submitting the same character and observe the returned score. Valid characters will have a non-zero score, for example:
-   ```sh
-   0000000 = score: 0.0
-   AAAAAAA = score: 28.571....
-   BBBBBBB = score: 0.0
-   ccccccc = score: 0.0
-   ...
-   ```
+      ```sh
+      0000000 = score: 0.0
+      AAAAAAA = score: 28.571....
+      BBBBBBB = score: 0.0
+      ccccccc = score: 0.0
+      ...
+      ```
 2. Discover valid character positions. Since `0000000` returns a zero value, we can use this as a mask to determine valid character positions, for example:
-   ```sh
-   A000000 = score: 0.0
-   0A00000 = score: 14.285...
-   00A0000 = score: 0.0
-   000A000 = score: 14.285...
-   0000A00 = score: 0.0
-   00000A0 = score: 0.0
-   000000A = score: 0.0
-   ...
-   ```
+      ```sh
+      A000000 = score: 0.0
+      0A00000 = score: 14.285...
+      00A0000 = score: 0.0
+      000A000 = score: 14.285...
+      0000A00 = score: 0.0
+      00000A0 = score: 0.0
+      000000A = score: 0.0
+      ...
+      ```
 3. See `code-breaker.sh`
 
 ### 250pts: [Tiles]
