@@ -1,11 +1,11 @@
 # Crypto
-### 15pts: [ROT]
+## 15pts: [ROT]
 Rotation cipher challenge.
 
 1. Copy the text and use https://rot13.com/
 2. Cycle through the drop down options
 
-### 25pts: [Encoded]
+## 25pts: [Encoded]
 Encoding is not cryptography!
 
 1. Base64 encoded string.
@@ -28,7 +28,7 @@ Encoding is not cryptography!
 6. Convert the string to ASCII. Output is in Hex, See: `convert.sh` (There are plenty of online converters)
 7. Convert Hex to ASCII: `echo HexStringHere | perl -ne 's/([0-9a-f]{2})/print chr hex $1/gie'`
 
-### 75pts: [Base64]
+## 75pts: [Base64]
 Can you even base64?
 
 1. Copy the base64 text into a file and decode. `cat b64.txt | base64 -d | strings` You will get a Hint.
@@ -38,7 +38,7 @@ Can you even base64?
     - Text to be XORed: `flag.txt`
     - Use the ascii key: `xor_key.txt`
 
-### 100pts: [ENIGMA]
+## 100pts: [ENIGMA]
 Decrypt an Enigma I encrypted message.
 
 1. Challenge Hints can be found by opening the DevTools Console.
@@ -48,7 +48,7 @@ Decrypt an Enigma I encrypted message.
     - https://www.cachesleuth.com/enigma.html
     - https://cryptii.com/pipes/enigma-machine
 
-### 300pts: [XOR]
+## 300pts: [XOR]
 XOR crypto challenge. Hint: Key Length: 6
 
 1. Copy text, go to https://www.dcode.fr/xor-cipher
