@@ -1,5 +1,5 @@
 # Networking
-### 15pts: [HTTP Basic]
+## 15pts: [HTTP Basic]
 Find the username and password in the PCAP
 
 1. Download the packet capture:
@@ -8,7 +8,7 @@ Find the username and password in the PCAP
 2. Run tcpdump, port 80, ascii output, grep for "pass":
      ```tcpdump -r ./http-auth.cap -s 0 -A tcp port 80  | grep pass```
     
-### 30pts: [WPA2 Deauth]
+## 30pts: [WPA2 Deauth]
 Crack the WPA2 password using the PCAP
 
 1. Download the packet capture:
