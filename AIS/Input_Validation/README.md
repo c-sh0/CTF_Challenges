@@ -1,12 +1,12 @@
 # Input Validation
-### 50pts: [SQL Login]
+## 50pts: [SQL Login]
 Figure out the password to login. Get the password for user: admin
 
 1. This is a classic SQL injection challenge.
 2. Enter a single quote `'` and note the error.
 3. Classic SQLi payload: `' or '1'='1`
 
-### 75pts: [Cross Site Scripting]
+## 75pts: [Cross Site Scripting]
 We've implemented a special anti-XSS technology - can you hack it? What is value of 'admin_sess_id' cookie?
 
 1. You are presented with a simple form.
@@ -16,7 +16,7 @@ We've implemented a special anti-XSS technology - can you hack it? What is value
 5. Payload: `x" onerror="alert(document.cookie)`
 6. Right click and `Inspect` the `<img>` tag.
 
-### 100pts: [SQL Credit Cards]
+## 100pts: [SQL Credit Cards]
 Find the credit card number. Get the credit card number for user: `UserNameHere`
 
 1. This is a classic SQL injection challenge.
