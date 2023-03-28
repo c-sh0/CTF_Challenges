@@ -243,8 +243,8 @@ If you can.
 6. What does `checksec` show?:
 ```sh
 checksec --file=debugme.unpacked
-RELRO  STACK CANARY  NX  PIE  RPATH RUNPATH  Symbols FORTIFY Fortified Fortifiable     FILE
-Partial RELRO  No canary found  NX enabled  No PIE  No RPATH   No RUNPATH No Symbols  No  0   0               debugme.unpacked
+RELRO          STACK CANARY     NX          PIE     RPATH     RUNPATH    Symbols    FORTIFY Fortified Fortifiable     FILE
+Partial RELRO  No canary found  NX enabled  No PIE  No RPATH  No RUNPATH No Symbols No      0         0      debugme.unpacked
 ```
 7. Running the unpacked binary through `radare2` and viewing the execution flow, there is a lot of junk/obfuscated `jump` instructions.
 
