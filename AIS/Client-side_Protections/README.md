@@ -1,5 +1,5 @@
 # Client-side Protections
-### 10pts: [Super Admin]
+## 10pts: [Super Admin]
 You must be an admin to proceed. (Javascript Parameter Tampering)
 
 1. Click Submit
@@ -8,7 +8,7 @@ You must be an admin to proceed. (Javascript Parameter Tampering)
 3. Open DevTools console and change the `is_super_admin` variable to `true`
 4. Click Submit
 
-### 50pts: [Timer]
+## 50pts: [Timer]
 Wait until the timer completes to press the submit button. (Tampering with Local Storage)
 
 1. Disable Javascript in your browser
@@ -17,7 +17,7 @@ Wait until the timer completes to press the submit button. (Tampering with Local
 4. Re-Enable Javascript
 5. Wait until the timer reaches zero and click Submit
 
-### 100pts: [Paid Content]
+## 100pts: [Paid Content]
 You must be a paid user to proceed. (Web Parameter/Payload Tampering)
 
 1. Open DevTools and click Submit (Alternatively, Burpsuite or OWASP Zap could be used but, I just used DevTools)
