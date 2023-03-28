@@ -215,6 +215,7 @@ If you can.
    ```sh
       https://github.com/avast/retdec
       OS: CentOS 8
+   
       dnf install graphviz zlib-devel pkg-config m4 libtool automake autoconf python3 openssl-devel openssl git make cmake gcc gcc-c++
       git clone https://github.com/avast/retdec.git
       cd retdec
