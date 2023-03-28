@@ -94,12 +94,14 @@ Reverse the license key validation binary
    ```
 3. Run program under a debugger looking for clues (using `radare2`):
     - Is bypassing the key checking function *REALLY* cheating if you learn something new? I say No! ;-P
+
 4. Run through `radare2` debugger (write mode) and view execution flow:
    ```sh
      r2 -Aw ./license_key_easy
      [0x00400a50]> s main
      [0x00400a50]> pdf
    ```
+
 5. Just before `"invalid key"` is printed, there is a jump instruction:
    ```sh
      ...
