@@ -40,9 +40,10 @@ Can you even base64?
 
 ## 100pts: [ENIGMA]
 Decrypt an Enigma I encrypted message.
+* I haven't solved this one yet. The following are just some notes.
 
 1. Challenge Hints can be found by opening the DevTools Console.
-2. While plugboard, rotor positions, and reflector information is there in the Hints, I wasn't able to solve this one.
+2. While plugboard, rotor positions, and reflector information is there in the Hints
     - https://pypi.org/project/py-enigma/
     - https://www.dcode.fr/enigma-machine-cipher
     - https://www.cachesleuth.com/enigma.html
