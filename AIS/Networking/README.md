@@ -29,6 +29,6 @@ Crack the WPA2 password using the PCAP
     autoreconf -i
     ./configure
     make 
-    ./aircrack-ng -w rockyou.txt -b 7c:8b:ca:cb:d7:82 de-auth.cap
+    ./aircrack-ng -w rockyou.txt -b <BSSID_MAC_HERE> de-auth.cap
     ```
 
