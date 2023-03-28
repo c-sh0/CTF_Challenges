@@ -93,7 +93,7 @@ Reverse the license key validation binary
       incorrect key
    ```
 3. Run program under a debugger looking for clues (using `radare2`):
-    - Is bypassing the key checking function *REALLY* cheating if you learn something new? I say No! ;-P
+    - Is bypassing the key checking function *REALLY* cheating if you learn something new? I vote No! ;-P
 
 4. Run through `radare2` debugger (write mode) and view execution flow:
    ```sh
