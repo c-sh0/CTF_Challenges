@@ -170,6 +170,7 @@ Provide the correct response based on a challenge
 If you can.
 * I haven't solved this one yet. The following are just some notes.
 * Recommended reading: https://research.checkpoint.com/2019/deobfuscating-apt32-flow-graphs-with-cutter-and-radare2/
+* Old tool, `memdump` could be useful? http://www.porcupine.org/forensics/tct.html
 
 1. Download: `wget https://hack.ainfosec.com/static/hackerchallenge/bin/debugme/debugme`
 2. Running the program:
