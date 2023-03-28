@@ -9,7 +9,7 @@ Anytime you run across these types of challenges
     setenforce 0
    ```
 
-### 100pts: [Sentence Bot]
+## 100pts: [Sentence Bot]
 It's not very good at sentences.
 * Using `strings` shows nothing obvious
 * Debugger: https://github.com/radareorg/radare2
@@ -75,7 +75,7 @@ It's not very good at sentences.
    ```
    Win!
 
-### 250pts: [License Key]
+## 250pts: [License Key]
 Reverse the license key validation binary
 
 1. DevTools Console, Hint: <br> `Don't try to reverse the key generation function and most definitely don't try to bypass it.`
@@ -157,14 +157,14 @@ https://research.checkpoint.com/2019/deobfuscating-apt32-flow-graphs-with-cutter
      ...flag...
     ```
 
-### 400pts: [Challenge Response]
+## 400pts: [Challenge Response]
 Provide the correct response based on a challenge
 * I haven't solved this one yet. The following are just some notes.
 
 1. DevTools Console, Hint: <br> `When you run my software, you'll be given a challenge key that is only valid for 30 seconds.`
 2. Resetting the local system date/time backwards in time (while loop, freeze the date/time), will prevent the program from issuing a new challenge key.
 
-### 500pts: [Debug Me]
+## 500pts: [Debug Me]
 If you can.
 * I haven't solved this one yet. The following are just some notes.
 * Recommended reading: https://research.checkpoint.com/2019/deobfuscating-apt32-flow-graphs-with-cutter-and-radare2/
