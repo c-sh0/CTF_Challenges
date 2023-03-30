@@ -55,3 +55,20 @@ Slide fast...There's not much time. (The puzzle will reset/change when the timer
    `cat steps.txt | awk '{print $2}' | sed -e 's/^"//g' | sed -e 's/"$/,/g' | tr -d '\n'`
 8. Paste result to solve the puzzle.
 
+# Programming - Retired Challenges
+10pts: [Post Decrement]
+What's the output for the code snippet above?
+```sh
+gcc -Wall post-decrement.c -o post-decrement
+./post-decrement
+4,3,2,1,0,
+```
+
+# 300pts: [Super ROT] 
+Solve all rotated strings in under 180 seconds. You're not going to be able to do this by hand. Also don't get any wrong or you have to start over.
+
+1. Decode the provided string using all ROT{1,25} vaiations (Caesar Cipher Brute)
+2. Check each word in the decoded string agiast a dictonary of words
+3. Count the number of words found for each decoded string
+4. Greatest word count is the likely the solution
+5. See: `super-rot.py` and `super-rot-stdin.py`
