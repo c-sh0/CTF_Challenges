@@ -70,5 +70,5 @@ Solve all rotated strings in under 180 seconds. You're not going to be able to d
 1. Decode the provided string using all ROT{1,25} vaiations (Caesar Cipher Brute)
 2. Check each word in the decoded string agiast a dictonary of words
 3. Count the number of words found for each decoded string
-4. Greatest word count is the likely the solution
+4. Greatest word count is the likely solution
 5. See: `super-rot.py` and `super-rot-stdin.py`
